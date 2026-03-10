@@ -1,0 +1,45 @@
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: silver;
+    padding: 1em;
+}
+
+.blue-box {
+    background-color: #06425c;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 5em;
+    flex-grow: 1;
+    flex-basis: 10em;
+}
+
+.div_background-color_6f3662 {
+    background-color: #6f3662;
+}
+
+.div_background-color_ff7182 {
+    background-color: #ff7182;
+}
+
+.div_background-color_ffae5d {
+    background-color: #ffae5d;
+}
+
+.div_background-color_f8f8f2 {
+    background-color: #f8f8f2;
+}
+
+.div_background-color_f0f8ff {
+    background-color: #f0f8ff;
+}

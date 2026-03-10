@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: Playfair Display, sans-serif;
+}
+
+:root {
+    --dun: #D5C3B7ff;
+    --avocado: #537B24ff;
+    --raisin-black: #322C36ff;
+    --buff: #E9A672ff;
+}
+
+body {
+    background-color: var(--dun);
+    max-width: 51.2rem;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+    background-color: var(--raisin-black);
+    color: var(--dun);
+    height: 5rem;
+    padding: 0 1rem;
+}
+
+.logo {
+    height: 3rem;
+    width: 7rem;
+    align-self: center;
+    object-fit: cover;
+}
+
+ul {
+    align-content: center;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 0.1rem;
+    grid-auto-rows: 15rem;
+}
+
+p {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+
+.figure {
+    grid-row: auto / span 2;
+}
+
+.figure_wide {
+    grid-column: auto / span 2;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.img {
+    height: 30.1rem;
+}
+
+article {
+    background-color: var(--avocado);
+    color: var(--buff);
+}
+
+.art1 {
+    justify-items: center;
+    align-content: center;
+    font-size: clamp(2rem, 10vw, 5rem);
+    text-align: center;
+    padding: clamp(2rem, 10vw, 5rem);
+    grid-area: auto / auto / span 2 / span 2;
+}
+
+.art2 {
+    justify-items: center;
+    align-content: center;
+    font-size: clamp(1rem, 10vw, 3rem);
+    text-align: center;
+    grid-column: auto / span 2;
+    padding: clamp(2rem, 10vw, 3rem);
+}
+
+.art3 {
+    justify-items: center;
+    align-content: center;
+    font-size: clamp(2rem, 10vw, 5rem);
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    grid-row: auto / span 2;
+}
+
+footer {
+    background-color: var(--raisin-black);
+    color: var(--dun);
+    text-align: center;
+    padding: 3rem;
+}
+
+.i2 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0 0.2em 0.8em;
+}
+
+.line-height {
+    line-height: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: none;
+    }
+
+    header {
+        display: block;
+        height: auto;
+        justify-items: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    section {
+        grid-template-columns: auto-fill;
+    }
+}

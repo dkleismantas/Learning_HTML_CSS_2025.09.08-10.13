@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parent {
+    width: 640px;
+    background-image: url(IMG/conv.jpg);
+    background-repeat: no-repeat;
+    height: 427px;
+    margin: 10em auto;
+    position: relative;
+}
+
+.element {
+    width: 640px;
+    height: 100px;
+    color: white;
+    padding-left: 1em;
+    background-color: rgb(154, 205, 50, 0.5);
+    font-size: 2em;
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+
+
+}

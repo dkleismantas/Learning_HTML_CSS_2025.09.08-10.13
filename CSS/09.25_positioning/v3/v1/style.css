@@ -1,0 +1,26 @@
+body {
+    width: 75%;
+    margin: 10em auto;
+    position: relative;
+}
+
+div {
+    box-sizing: border-box;
+    width: 10em;
+    height: 40em;
+    border: 2px solid black;
+    position: absolute;
+    padding: 2em;
+}
+
+.div2 {
+    left: 12em;
+}
+
+.div3 {
+    left: 24em;
+}
+
+.div4 {
+    left: 36em;
+}

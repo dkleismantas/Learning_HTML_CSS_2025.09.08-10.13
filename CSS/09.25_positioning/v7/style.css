@@ -1,0 +1,22 @@
+article {
+    width: 75%;
+    margin: 10em auto;
+}
+
+body {
+    margin: 0 0;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(95, 158, 160, 0.75);
+    position: fixed;
+    bottom: 0;
+}
+
+img {
+    padding: 1em;
+    height: 30px;
+    display: inline-block;
+    object-fit: cover;
+}

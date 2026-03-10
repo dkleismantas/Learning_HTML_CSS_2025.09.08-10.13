@@ -1,0 +1,39 @@
+img {
+    width: 30em;
+    position: absolute;
+    left: 10em;
+    top: 20em;
+    z-index: 1;
+}
+
+.div_box {
+    position: relative;
+    left: 25em;
+    top: 10em;
+    width: 30em;
+    height: 25em;
+    box-shadow: 0px 3px 10px 5px rgba(189,189,189,0.75);
+    background-color: white;
+}
+
+.div_article {
+    width: 11em;
+    /* border: 1px solid silver; */
+    position: absolute;
+    right: 2em;
+    top: 3em;
+    padding-bottom: 1em;
+}
+
+p {
+    height: 12em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid silver;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin-left: 1em;
+}

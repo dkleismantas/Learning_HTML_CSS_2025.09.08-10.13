@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Form Exercise</h1>
+    </header>
+    <main>
+        <section>
+            <form action="#">
+                <p><label for="txt">Text input</label></p>
+                <p><input type="text" name="txt" id="txt" placeholder="Enter text..."></p>
+                <p><label for="pass">Password input</label></p>
+                <p><input type="password" name="pass" id="pass"></p>
+                <p><label for="mail">E-mail input</label></p>
+                <p><input type="email" name="email" id="mail"></p>
+                <p><label for="url">URL input</label></p>
+                <p><input type="url" name="url" id="url"></p>
+                <p><label for="src">Search input</label></p>
+                <p><input type="search" name="src" id="src"></p>
+                <p><label for="rq">Required input</label></p>
+                <p><input type="text" name="rq" id="rq" required></p>
+                <p><label for="rdo">Read-only input</label></p>
+                <p><input type="text" name="rdo" id="rdo" readonly></p>
+                <p><label for="dis">Disabled input</label></p>
+                <p><input type="text" name="dis" id="dis" disabled></p>
+                <p><label for="snsl">Single-select</label></p>
+                <p><select name="select" id="nsnl">
+                        <option value="choose" selected> -please choose-</option>
+                        <option value="option1"> Option 1</option>
+                        <option value="option2"> Option 2</option>
+                        <option value="option3"> Option 3</option>
+                    </select>
+                </p>
+                <p><label for="mlsl">Multiple-select</label></p>
+                <p><select name="select" id="mlsl" multiple>
+                        <option value="option1"> Option 1</option>
+                        <option value="option2"> Option 2</option>
+                        <option value="option3"> Option 3</option>
+                    </select></p>
+                <p>Checkbox</p>
+                <p><input type="checkbox" name="check" id="check">
+                    <label for="check">Check me</label>
+                </p>
+                <p>Checkboxes</p>
+                <p><input type="checkbox" name="checkbx" id="check1" value="OptionA">
+                    <label for="check1">Option A</label>
+                </p>
+                <p><input type="checkbox" name="checkbx" id="check2" value="OptionB">
+                    <label for="check2">COption B</label>
+                </p>
+                <p><input type="checkbox" name="checkbx" id="check3" value="OptionC">
+                    <label for="check3">Option C</label>
+                </p>
+                <p>Radio buttons</p>
+                <p><input type="radio" name="rd" id="rd1" value="rd1">
+                    <label for="rd1">Option A</label>
+                </p>
+                <p><input type="radio" name="rd" id="rd2" value="rd2">
+                    <label for="rd2">Option A</label>
+                </p>
+                <p><input type="radio" name="rd" id="rd3" value="rd3">
+                    <label for="rd3">Option A</label>
+                </p>
+                <p><label for="fselect">File input</label></p>
+                <p><input type="file" name="file" id="fselect"></p>
+                <p><label for="text">Textarea</label></p>
+                <p><textarea name="textarea" id="text" rows="3" cols="30">
+            </textarea></p>
+                <p><label for="date">Date</label></p>
+                <p><input type="date" name="date" id="date"></p>
+                <p><label for="num">Number input</label></p>
+                <p><input type="number" name="num" id="num"></p>
+                <p><label for="rang">Range input</label></p>
+                <p>1<input type="range" name="rang" id="rang" min="1" max="50" value="5">50</p>
+                <button>Save</button>
+                <button type="reset">Cancel</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

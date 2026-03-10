@@ -1,0 +1,9 @@
+/* Dizainas */
+
+li:nth-child(4n-1) {
+    color: orange;
+}
+
+li:hover:nth-child(3n-1) {
+    color: pink;
+}

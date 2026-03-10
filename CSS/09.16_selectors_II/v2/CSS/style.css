@@ -1,0 +1,30 @@
+/* Dizainas */
+
+p:first-child {
+    color: blue;
+    font-size: large;
+}
+
+p:last-child {
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+p:hover:nth-child(2n+2) {
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p:nth-child(even) {
+    border: 2px solid lime;
+}
+
+p:nth-child(2n+3){
+    background-color: chocolate;
+    color: silver;
+    text-decoration: underline;
+    
+}

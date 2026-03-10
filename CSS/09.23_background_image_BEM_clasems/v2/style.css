@@ -1,0 +1,136 @@
+main {
+    width: 60%;
+    margin: 0 auto;
+    justify-items: center;
+    background-color: #ffffce;
+    padding: 5% 0;
+}
+
+button {
+    box-sizing: border-box;
+    width: 7em;
+    height: 3em;
+    margin: 10px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button_border_none {
+    border: none;
+}
+
+.button_color_white {
+    color: white;
+}
+
+.button_background-color_blue {
+    background-color: #2098d1;
+}
+
+.button_background-color_green {
+    background-color: #2dbf64;
+}
+
+.button_background-color_lightblue {
+    background-color: #44cceb;
+}
+
+.button_background-color_orange {
+    background-color: #e8910d;
+}
+
+.button_background-color_red {
+    background-color: #ed5650;
+}
+
+.button_background-color_transparent {
+    background-color: transparent;
+}
+
+.button_border-radius_5px {
+    border-radius: 5px;
+}
+
+.button_color_blue {
+    color: #2098d1;
+}
+
+.button_color_green {
+    color: #2dbf64;
+}
+
+.button_color_lightblue {
+    color: #44cceb;
+}
+
+.button_color_orange {
+    color: #e8910d;
+}
+
+.button_color_red {
+    color: #ed5650;
+}
+
+.button_border_blue {
+    border: 2px solid #2098d1;
+}
+
+.button_border_green {
+    border: 2px solid #2dbf64;
+}
+
+.button_border_lightblue {
+    border: 2px solid #44cceb;
+}
+
+.button_border_orange {
+    border: 2px solid #e8910d;
+}
+
+.button_border_red {
+    border: 2px solid #ed5650;
+}
+
+.button_background-image_blue {
+    background-image: linear-gradient(to bottom, #3fa5d0 0%, #3fa5d0 50%, #2098d1 50%, #2098d1 100%);
+}
+
+.button_background-image_green {
+    background-image: linear-gradient(to bottom, #48bf81 0%, #48bf81 50%, #2dbf64 50%, #2dbf64 100%);
+}
+
+.button_background-image_lightblue {
+    background-image: linear-gradient(to bottom, #69d3eb 0%, #69d3eb 50%, #44cceb 50%, #44cceb 100%);
+}
+
+.button_background-image_orange {
+    background-image: linear-gradient(to bottom, #e8a34a 0%, #e8a34a 50%, #e8910d 50%, #e8910d 100%);
+}
+
+.button_background-image_red {
+    background-image: linear-gradient(to bottom, #ee6e6b 0%, #ee6e6b 50%, #ed5650 50%, #ed5650 100%);
+}
+
+.button__small {
+    border-radius: 1.5em;
+}
+
+.button_box-shadow_blue {
+    box-shadow: 0px 5px 5px 0px #116d9e;
+}
+
+.button_box-shadow_green {
+    box-shadow: 0px 5px 5px 0px #208a46;
+}
+
+.button_box-shadow_lightblue {
+    box-shadow: 0px 5px 5px 0px #39a0b9;
+}
+
+.button_box-shadow_orange {
+    box-shadow: 0px 5px 5px 0px #b66f08;
+}
+
+.button_box-shadow_red {
+    box-shadow: 0px 5px 5px 0px #bc3b39;
+}

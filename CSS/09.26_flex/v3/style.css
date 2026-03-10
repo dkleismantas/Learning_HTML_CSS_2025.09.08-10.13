@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: 5em auto;
+    display: flex;
+    padding: 5em 5em;
+    justify-content: space-between;
+    background-color: #cccccc;
+    flex-wrap: wrap;
+}
+
+.section {
+    /* width: 49%; */
+    width: 24.7em;
+    /* min-width: 49%; */
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 100%;
+}
+
+.food {
+    width: 100%;
+}
+
+.article-figure {
+    width: 40%;
+}
+
+.article-section {
+    width: 58%;
+}

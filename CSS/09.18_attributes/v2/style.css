@@ -1,0 +1,68 @@
+/* Dizainas */
+
+:root {
+--field-drab: #6B612Cff;
+--sunset: #efc38a;
+--moss-green: #80913Dff;
+--sunset-2: #EECB9Bff;
+--smoky-black: #141204ff;
+}
+
+body {
+    background-color: var(--moss-green);
+    color: var(--smoky-black);
+}
+
+main {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 10px auto;
+    background-color: var(--sunset-2);
+    padding: 1px 0;
+    border: 1px solid var(--field-drab);
+    box-shadow: 5px 5px 10px 0px rgba(107,97,44,1);
+}
+
+article {
+    margin: 15px 15px;
+}
+
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.box {
+    box-shadow: 2px 2px 5px 0px rgba(107,97,44,1);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+p, ul {
+    padding: 0.5em;
+    text-align: justify;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img {
+    text-align: center
+}
+
+.p {
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+}

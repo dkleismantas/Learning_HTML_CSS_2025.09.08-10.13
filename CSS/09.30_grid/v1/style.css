@@ -1,0 +1,19 @@
+section {
+    width: 50%;
+    margin: 10em auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 1em;
+}
+
+div {
+    color: white;
+    background-color: darkgoldenrod;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

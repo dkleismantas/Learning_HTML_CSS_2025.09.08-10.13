@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 50%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+a {
+    background-color: #f0f0f0;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    border: 1px solid black;
+}
+
+.a {
+    border: 1px solid black;
+}
+
+p, h3 {
+    text-align: left;
+}

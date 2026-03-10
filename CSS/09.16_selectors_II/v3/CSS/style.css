@@ -1,0 +1,28 @@
+/* Dizainas */
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+}
+
+thead {
+    background-color: #CAF278;
+}
+
+tfoot {
+    background-color: #CAF278;
+}
+
+tbody tr:nth-child(even){
+    background-color: silver;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}

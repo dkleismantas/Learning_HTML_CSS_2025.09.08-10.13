@@ -1,0 +1,146 @@
+:root {
+    --lightgrey: #fdfaf6;
+    --pink: #f29191;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lightgrey);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAV */
+
+.navigation {
+    background-color: var(--pink);
+    color: var(--lightgrey);
+}
+
+.nav-logo {
+    display: inline-block;
+    padding: 1em 1em;
+}
+
+.navigation ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    color: var(--lightgrey);
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 2em;
+}
+
+/* MAIN */
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 1em;
+}
+
+.section-left {
+    width: 30%;
+    float: left;
+}
+
+.section-right {
+    width: 70%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: var(--pink);
+    color: var(--lightgrey);
+    padding: 1em;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    /* ...rules here apply to devices from 993px to 1200px (inclusive)... */
+
+    main {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /* ...rules here apply to devices from 769px to 992px (inclusive)... */
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .section-left {
+        width: 50%;
+    }
+
+    .section-right {
+        width: 50%;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* ...rules here apply to devices from 0px to 768px (inclusive)... */
+
+    .navigation {
+        min-width: 600px;
+    }
+
+    .section-left {
+        width: 100%;
+        float: none;
+    }
+
+    .section-right {
+        width: 100%;
+        float: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .navigation {
+        min-width: auto;
+        display: block;
+        text-align: center;
+    }
+
+    .navigation ul, .navigation li {
+        display: block;
+    }
+
+}

@@ -1,0 +1,41 @@
+/* Dizainas */
+
+main {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.block {
+    margin-top: -10rem;
+    background-color: white;
+    box-shadow: 0px 0px 46px -9px rgba(0,0,0,0.75);
+    padding: 175px 10% 5%;
+    font-size: 20px;
+}
+
+.p {
+    text-align: justify;
+    text-align-last: center;
+}
+
+ul {
+    padding-left: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 2%;
+    font-size: 50px;
+    color: goldenrod;
+}

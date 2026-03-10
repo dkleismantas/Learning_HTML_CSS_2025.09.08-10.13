@@ -1,0 +1,10 @@
+main{
+    width: 600px;
+    height: 400px;
+    background-image: url(../IMG/poop.png), url(../IMG/soldier2.PNG), url(../IMG/winter.jpg);
+    background-size: 3%, 40%, cover;
+    background-repeat:no-repeat, no-repeat, no-repeat;
+    background-position: 76% 48%, left bottom, left;
+    margin: 0 auto;
+
+}

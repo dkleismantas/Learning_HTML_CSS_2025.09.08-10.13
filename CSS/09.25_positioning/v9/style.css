@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.social-container {
+    width: 12%;
+    height: 60em;
+    border: 2px solid black;
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    justify-items: center;
+}
+
+.fixed-container {
+    position: fixed;
+}
+
+.fixed-icons {
+    text-align: center;
+    padding: .3em;
+}
+
+.icon {
+    font-size: 2em;
+    color: white;
+    padding: .5em;
+    border-radius: 50%;
+}
+
+.icon1 {
+    background-color: #002699;
+}
+
+.icon2 {
+    background-color: #b5cad1;
+}
+
+.icon3 {
+    background-color: #ff0000;
+}
+
+.icon4 {
+    color: #ff0000;
+}
+
+.icon5 {
+    background-color: #d98c8c;
+}
+
+.container {
+    display: inline-block;
+    width: 87%;
+}

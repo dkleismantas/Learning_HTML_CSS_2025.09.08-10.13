@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+label.light {
+    font-weight: 300;
+    display: inline;
+}
+
+/* Jūsų CSS prasideda čia */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #323b42;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f4f7f8;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    margin-bottom: 1em;
+}
+
+.number {
+    background-color: #5fcf80;
+    color: white;
+    padding: 0.5em;
+    clip-path: circle()
+}
+
+label {
+    font-size: small;
+    font-weight: 550;
+}
+
+input, select, textarea {
+    border: none;
+    padding: 0.5em;
+    background-color: #e8eeef;
+}
+
+fieldset {
+    margin-bottom: 2em;
+}
+
+input[type=text], input[type=email], input[type=password], textarea, select{
+    margin-bottom: 2em;
+    display: block;
+    width: 95%;
+}
+
+textarea {
+    height: 5em;
+}
+
+select {
+    color: #8b98a1;
+}
+
+button {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #5fcf80;
+    color: white;
+    border: none;
+    padding: 1em;
+}
