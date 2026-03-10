@@ -1,4 +1,6 @@
-# Learning_HTML_CSS_2026.09.08-10.08
+# HTML and CSS learning module
+
+# Overview
 In this module, I learned the basics of HTML and CSS. Here you can find the assignments and the work I completed for them.
 
 # Technologies used
